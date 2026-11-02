@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form Profil</title>
+	<link rel="stylesheet" href="css/bootstrap-grid.css" type="text/css">
+	<link rel="stylesheet" href="css/styles.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<style>
+		.no-sticky nav { position: static; }
+	</style>
+</head>
+
+<body class="no-sticky">
+	<nav>
+		<ul>
+			<li><a href="index.html#contact">Home</a></li>
+			<li>works</li>
+			<li>expertience</li>
+			<li class="empty"></li>
+			<li><a href="profil.html">profil</a></li>
+			<li><a href="https://www.instagram.com/rismarwe_" target="_blank">instagram</a></li>
+			
+		</ul>
+	</nav>
+
+	<section class="project blue">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm">
+					<h1>Form Profil</h1>
+					<p>Isi data diri singkat di bawah ini, lalu tekan tombol simpan untuk melihat hasilnya.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm">
+					<form id="profilForm">
+						<ul>
+							<li>
+								<label for="nim">NIM</label><br>
+								<input type="text" id="nim" name="nim" required>
+							</li>
+							<li>
+								<label for="nama">Nama</label><br>
+								<input type="text" id="nama" name="nama" required>
+							</li>
+							<li>
+								<label for="alamat">Alamat</label><br>
+								<textarea id="alamat" name="alamat" rows="3" required></textarea>
+							</li>
+							<li>
+								<label for="hobi">Hobi</label><br>
+								<input type="text" id="hobi" name="hobi" required>
+							</li>
+							<li>
+								<label for="instagram">Instagram</label><br>
+								<input type="text" id="instagram" name="instagram" placeholder="@username" required>
+							</li>
+						</ul>
+						<button type="submit" class="button">Simpan</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer id="contact">
+		<h2>any questions?<br>
+			find me here <br>email@Risma02.com</h2>
+			<p>designed & developed by Andi Zikra 2024</p>
+		</footer>
+	<script src="javascript/js.js"></script>
+	</body>
+	</html>
